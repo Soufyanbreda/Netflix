@@ -1,0 +1,108 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+h1{
+    text-align:center;
+   color:white;
+    font-size:60px;
+}
+    
+#tab1
+{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    color:white;
+    font-size:50px;
+}
+
+#register
+{
+    text-align:center;
+}
+
+.vid{
+    margin: 0 auto;
+}
+
+h3{
+    text-align:center;
+    font-size:50px;
+    color:white;
+}
+
+#tab1{
+    text-align:center;
+}
+
+#tab2{
+    text-align:center;
+}
+
+body{
+    background-color:red;
+}
+
+.meldjeaan{
+   background-color:red;
+   color:white;
+   text-align:center;
+   font-size:20px;
+   
+}
+
+#container{
+    color:white;
+}
+
+h6{
+  font-size:20px;
+  color:white;
+}
+
+.jumbotron{
+    background-color:red;
+}
+
+h4{
+    text-align:center;
+    font-size:50px;
+    color:white;
+}
+
+
+
+#register
+{
+    text-align:center;
+}
+
+h5{
+    font-size:20px;
+    color:white;
+}
+
+#btnRegistreer
+{
+    background-color:red;
+}
+
+.nav{
+    color:white;
+}
+#lblloggedinuser
+{
+    color: white;
+    float: right;
+    line-height: 21px;
+    text-align: center;
+    
+}
+
+
