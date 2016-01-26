@@ -28,7 +28,11 @@ namespace Netflixsite_Test
             show.Showname = "breakingbad";
             Assert.AreEqual("breakingbad", show.Showname, "Check if show name is equal");
         }
-
+        [TestMethod]
+        public void TestDatabaseConnection()
+        {
+            Assert.AreEqual(Database.Instance.Hasconnection(), true, "Er is geen verbinding");
+        }
 
     }
 }
