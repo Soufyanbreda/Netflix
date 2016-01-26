@@ -28,7 +28,7 @@ namespace Netflix_SoufyanBargach
             
             //Nieuwe gebruiker aanmaken
  Netflix_SoufyanBargach.Account nieuweaccount = new Netflix_SoufyanBargach.Account(username,wachtwoord,gender,firstname,lastname, "n");
-            //Database query werkt niet
+            
             Database.Instance.Registreren(nieuweaccount, wachtwoord);
             
             //Na het registreren worden gebruikers naar de loginpagina gestuurd

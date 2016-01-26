@@ -20,7 +20,7 @@ namespace Netflix_SoufyanBargach.Pages
             string gebruikersnaam = tbUsername.Text;
             string wachtwoord = tbPassword.Text;
 
-            //Database query werkt niet
+            //Database query
             Database.Instance.Login((gebruikersnaam), wachtwoord.ToString());
 
             //Na inloggen gaan gebruikers naar de titel pagina waar ze films kunnen kijken

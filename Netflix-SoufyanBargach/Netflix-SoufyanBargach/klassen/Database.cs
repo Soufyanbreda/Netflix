@@ -26,6 +26,7 @@ namespace Netflix_SoufyanBargach
             get { return instance ?? (instance = new Database()); }
         }
 
+        
         private Database()
         {
 
@@ -110,6 +111,7 @@ namespace Netflix_SoufyanBargach
             }
         }
 
+        //Query om accountid te verkrijgen
         public int Getmaxuser()
         {
             int maxuser = 0;
@@ -183,6 +185,10 @@ namespace Netflix_SoufyanBargach
             }
             return movies;
         }
+        /// <summary>
+        ///  Query om gebruikers op te halen
+        /// </summary>
+        /// <returns></returns>
         internal List<Account> LaadAccount()
         {
             List<Account> account = new List<Account>();
@@ -245,6 +251,7 @@ namespace Netflix_SoufyanBargach
                 }
             }
         }
+
         //Query om serie te verwijderen
 
         public void VerwijderSerie(Show show)
