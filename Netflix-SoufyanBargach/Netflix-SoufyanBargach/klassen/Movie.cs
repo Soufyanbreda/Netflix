@@ -19,7 +19,7 @@ namespace Netflix_SoufyanBargach
         public int Year { get; set; }
 
         //Constructor
-        public Movie(int movieid,string director,string genre,string catagorie,string moviename,string language,int year)
+        public Movie (int movieid,string director,string genre,string catagorie,string moviename,string language,int year)
         {
             this.Movieid = movieid;
             this.Director = director;
@@ -29,6 +29,12 @@ namespace Netflix_SoufyanBargach
             this.Language = language;
             this.Year = year;
         }
+
+      
+
+
+
+
 
         //Methode
         public override string ToString()

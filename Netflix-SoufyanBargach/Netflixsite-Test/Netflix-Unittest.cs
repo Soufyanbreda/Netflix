@@ -1,5 +1,5 @@
 ﻿using System;
-using Netflix-SoufyanBargach.klassen;
+using Netflix_SoufyanBargach;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Netflixsite_Test
@@ -10,7 +10,9 @@ namespace Netflixsite_Test
         [TestMethod]
         public void TestgetMovie()
         {
-            
+            Movie movie = new Movie(6, "scorcese", "horror", "aktie", "scarface", "nl", 1994);
+            movie.Moviename = "scarface";
+            Assert.AreEqual("scarface", movie.Moviename, "Check if movie name is equal");
         }
     }
 }
