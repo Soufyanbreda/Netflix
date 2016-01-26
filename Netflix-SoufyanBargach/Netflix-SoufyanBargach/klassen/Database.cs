@@ -222,7 +222,7 @@ namespace Netflix_SoufyanBargach
                         while (reader.Read())
                         {
                             series.Add(new Show(Convert.ToInt32(reader["Showid"]), reader["Director"].ToString(), reader["Genre"].ToString(),
-                            reader["catagorie"].ToString(), reader["showname"].ToString(),  Convert.ToInt32(reader["year"])));
+                            reader["catagorie"].ToString(), reader["showname"].ToString()));
                         }
                     }
                 }

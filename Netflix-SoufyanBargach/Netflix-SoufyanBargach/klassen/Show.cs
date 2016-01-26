@@ -18,15 +18,15 @@ namespace Netflix_SoufyanBargach
         public int Year { get; set; }
 
         //Constructor
-        public Show(int movieid,string director,string genre,string catagorie,string moviename,int year)
+        public Show(int showid,string director,string genre,string catagorie,string showname)
         {
-            this.Showid = movieid;
+            this.Showid = showid;
             this.Director = director;
             this.Genre = genre;
             this.Catagorie = catagorie;
-            this.Showname = moviename;
+            this.Showname = showname;
             
-            this.Year = year;
+            
         }
 
         //Methode

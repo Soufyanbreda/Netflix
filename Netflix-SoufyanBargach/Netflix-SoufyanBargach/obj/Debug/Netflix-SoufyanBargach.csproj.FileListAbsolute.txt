@@ -149,6 +149,5 @@ C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-Soufyan
 C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\obj\Debug\Netflix-SoufyanBargach.csprojResolveAssemblyReference.cache
 C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\obj\Debug\Netflix-SoufyanBargach.dll
 C:\Users\soufyan\Documents\GitHub\Netflix\Netflix-SoufyanBargach\Netflix-SoufyanBargach\obj\Debug\Netflix-SoufyanBargach.pdb
